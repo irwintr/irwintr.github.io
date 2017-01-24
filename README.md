@@ -29,7 +29,7 @@ As a Computer Engineering student, I&#39;ll be using all of the skills I have le
 
 The problem solved by this project is that it provides a home monitoring solution so that users homes can be controlled and monitored remotely through an intuitive app. It will help people monitor their resource consumption as well which may help drive down consumption.
 
-There are several other home monitoring solutions on the market now, but they are usually integrated into either the thermostat or home security system. This is one of the first projects I&#39;ve seen where water and power consumption are also monitored on a residential scale.
+There are several other home monitoring solutions on the market now[@4429263], but they are usually integrated into either the thermostat or home security system. This is one of the first projects I&#39;ve seen where water and power consumption are also monitored on a residential scale.
 
 In the Computer Engineering Technology program I have learned about the following topics from the respective relevant courses:
 
