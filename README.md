@@ -2,7 +2,7 @@
 csl: apa.csl
 bibliography: RPiCitations.bib
 ---
-#
+
 # ActiveHouse
 
 Project website [https://irwintr.github.io](https://irwintr.github.io)
