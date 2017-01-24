@@ -1,3 +1,7 @@
+---
+csl: apa.csl
+bibliography: RPiCitations.bib
+---
 #
 # ActiveHouse
 
