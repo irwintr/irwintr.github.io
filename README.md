@@ -132,3 +132,64 @@ The tables below provide rough effort and non-labour estimates respectively for 
 
 This proposal presents a plan for providing an IoT solution for a home monitoring system. This is an opportunity to integrate the knowledge and skills developed in the Computer Engineering program to create a collaborative IoT capstone project demonstrating my ability to learn how to support projects. I request approval of this project.
 
+
+
+#System Requirements 
+
+# Database Specifications
+
+## **Database Type**
+
+For the ActiveHouse project I am using a MySQL database hosted on Munro. It can be administered through phpMyAdmin.
+
+## **Database Tables**
+
+There are four tables that are used in the Firebase.
+
+1. USERS
+2. HOUSE
+3. ROOM
+4. ROOM\_DATA
+
+**USERS** is the table in which all users who sign up for the ActiveHouse application are stored. They are given a key as a unique identifier.
+
+**HOUSE** is the table in which the names of houses and their data are stored. Each house is unique via an HOUSEID identification key within the table.
+
+**ROOM** is the table in which the rooms in each house are stored. It contains the HOUSEID that it corresponds with, a unique ROOMID and the room name.
+
+**ROOM\_DATA** is the table where the sensor readings for each room are stored. It is identified by the unique ROOMID.
+
+## **Work Breakdown**
+
+There is no further work that needs to be done to the database.
+
+#
+# Mobile Application Specifications
+
+## **Graphical User Interface Specifications**
+
+**MainActivity:** The login screen of the application is the first presented upon launching the application. The user may enter already existing credentials into EditText fields and login, or may choose to go to the sign up activity, both navigations via Buttons. There is a checkbox to save the entered username to local storage to be auto populated in future sessions.
+
+**RegisterActivity:** The sign up screen of the application can be accessed from the login screen. It has EditText fields for gathering new user information including their HOUSEID. Without a HOUSEID, they cannot create a new account. Incorrect EditText entries will be communicated via Toast message asking for re-entry.
+
+**HomeActivity:** This is the main screen of the app where the user can view the current settings of the user&#39;s house. There is a hamburger menu with links to the other pages including one for each room in the home. Users can logout from the menu bar.
+
+**RoomActivity:** This page has the sensor data from an individual room displayed. The user can interact with the page by toggling the light or light schedule or setting the time on or off for the light. There is a hamburger menu with links to the other pages including one for each room in the home. Users can logout from the menu bar.
+
+**RoomViewActivity:** The room view activity is a listview with all of the rooms in it. Users can select the room they wish to view and be taken to the RoomActivity page for that room.
+
+## **Application Work Breakdown**
+
+# There are a few small bugs that I need to patch, but the app is working and pretty much complete.
+
+#
+# Web Specifications
+
+## **Web Service Specifications**
+
+The web service is written in php and hosted on Munro. It can be accessed at munro.humber.ca/~n01046059/ActiveHouse.
+
+## **Web Work Breakdown**
+
+The side of the web service that interacts with the mobile app is complete and does not require any changes. I do need to write the side of the web service that connects to the Raspberry Pi to send and receive sensor data. Additionally I need to write a program to run on the Raspberry Pi to send the data to the server.
+
