@@ -1,3 +1,8 @@
+---
+csl: apa.csl
+bibliography: RPiCitations.bib
+---
+
 **ActiveHouse**
 ===============
 
@@ -21,7 +26,7 @@ Prepared by Trenton Irwin
 
 6.  [References](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#references)
 
-**Proposal**
+##	**Proposal**
 
 The ActiveHouse Project would be a complete home monitoring system consisting of
 multiple Arduino based sensor hubs in each room of your home wirelessly
@@ -34,7 +39,7 @@ they would not necessarily be used in each room, thus creating a more modular
 design. The app would allow users to view the current settings in each room and
 over the complete house, toggle the lighting, and set a lighting schedule.
 
-**Executive Summary**
+##	**Executive Summary**
 
 As a Computer Engineering student, I’ll be using all of the skills I have
 learned in the last 2 years in this program to complete this project. This
@@ -52,14 +57,14 @@ Techniques independently and the application will be completed in CENG 319
 Software Project. These will be integrated together in the subsequent term in
 CENG 355 Computer Systems Project.
 
-**Background**
+##	**Background**
 
 The problem solved by this project is that it provides a home monitoring
 solution so that users homes can be controlled and monitored remotely through an
 intuitive app. It will help people monitor their resource consumption as well
 which may help drive down consumption.
 
-There are several other home monitoring solutions on the market now, but they
+There are several other home monitoring solutions on the market now[@4429263], but they
 are usually integrated into either the thermostat or home security system. This
 is one of the first projects I’ve seen where water and power consumption are
 also monitored on a residential scale.
@@ -80,7 +85,7 @@ following topics from the respective relevant courses:
 This knowledge and skill set will enable me to build the subsystems and
 integrate them together as my capstone project.
 
-**Methodology**
+##	**Methodology**
 
 This proposal is assigned in the first week of class and is due at the beginning
 of class in the second week of the fall semester. My coursework will focus on
@@ -89,7 +94,7 @@ Phase 1 Hardware build.
 Phase 2 System integration.  
 Phase 3 Demonstration to future employers.
 
-*Phase 1 Hardware build*
+	*Phase 1 Hardware build*
 
 The hardware build will be completed in the fall term. It will fit within the
 CENG Project maximum dimensions of 12 13/16" x 6" x 2 7/8" (32.5cm x 15.25cm x
@@ -97,7 +102,7 @@ CENG Project maximum dimensions of 12 13/16" x 6" x 2 7/8" (32.5cm x 15.25cm x
 AC voltage that will be used is 16Vrms from a wall adaptor from which +/- 15V or
 as high as 45 VDC can be obtained. Maximum power consumption will be 20 Watts.
 
-*Phase 2 System integration*
+	*Phase 2 System integration*
 
 The system integration will be completed in the winter term.
 
@@ -173,7 +178,7 @@ important to start tasks as soon as possible to be able to meet deadlines.
 | **Phase 3**                                                                               |              |                                                                                                                                |
 | **Phase 3 Total**                                                                         | **TBD**      |                                                                                                                                |
 
-**Concluding remarks**
+##	**Concluding remarks**
 
 This proposal presents a plan for providing an IoT solution for a home
 monitoring system. This is an opportunity to integrate the knowledge and skills
