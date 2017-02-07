@@ -10,7 +10,25 @@ Project website <https://irwintr.github.io>
 
 Prepared by Trenton Irwin
 
-**Table of Contents**
+ 
+
+**Declaration of Sole Authorship**
+----------------------------------
+
+I, Trenton Irwin, will be completing all of the work related to this project
+including the hardware, database, web service, and mobile application. Any uses
+made within it of the works of any other author, in any form (ideas, equations,
+figures, texts, tables, programs), are properly acknowledged at the point of
+use. A list of the references used is included. It is mandatory that all sources
+of information be acknowledged in the SRS. Plagiarism is unethical and a
+candidate suspected of plagiarizing may be referred to the Complaints Committee.
+
+ 
+
+**Proposal**
+------------
+
+**Proposal Table of Contents**
 
 1.  [Proposal](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#proposal)
 
@@ -26,7 +44,7 @@ Prepared by Trenton Irwin
 
 6.  [References](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#references)
 
-##	**Proposal**
+ 
 
 The ActiveHouse Project would be a complete home monitoring system consisting of
 multiple Arduino based sensor hubs in each room of your home wirelessly
@@ -39,7 +57,10 @@ they would not necessarily be used in each room, thus creating a more modular
 design. The app would allow users to view the current settings in each room and
 over the complete house, toggle the lighting, and set a lighting schedule.
 
-##	**Executive Summary**
+ 
+
+**Executive Summary**
+---------------------
 
 As a Computer Engineering student, I’ll be using all of the skills I have
 learned in the last 2 years in this program to complete this project. This
@@ -57,17 +78,20 @@ Techniques independently and the application will be completed in CENG 319
 Software Project. These will be integrated together in the subsequent term in
 CENG 355 Computer Systems Project.
 
-##	**Background**
+ 
+
+**Background**
+--------------
 
 The problem solved by this project is that it provides a home monitoring
 solution so that users homes can be controlled and monitored remotely through an
 intuitive app. It will help people monitor their resource consumption as well
 which may help drive down consumption.
 
-There are several other home monitoring solutions on the market now[@4429263], but they
-are usually integrated into either the thermostat or home security system. This
-is one of the first projects I’ve seen where water and power consumption are
-also monitored on a residential scale.
+There are several other home monitoring solutions on the market now[@4429263],
+but they are usually integrated into either the thermostat or home security
+system. This is one of the first projects I’ve seen where water and power
+consumption are also monitored on a residential scale.
 
 In the Computer Engineering Technology program I have learned about the
 following topics from the respective relevant courses:
@@ -85,7 +109,10 @@ following topics from the respective relevant courses:
 This knowledge and skill set will enable me to build the subsystems and
 integrate them together as my capstone project.
 
-##	**Methodology**
+ 
+
+**Methodology**
+---------------
 
 This proposal is assigned in the first week of class and is due at the beginning
 of class in the second week of the fall semester. My coursework will focus on
@@ -94,7 +121,9 @@ Phase 1 Hardware build.
 Phase 2 System integration.  
 Phase 3 Demonstration to future employers.
 
-	*Phase 1 Hardware build*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Phase 1 Hardware build*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The hardware build will be completed in the fall term. It will fit within the
 CENG Project maximum dimensions of 12 13/16" x 6" x 2 7/8" (32.5cm x 15.25cm x
@@ -102,7 +131,9 @@ CENG Project maximum dimensions of 12 13/16" x 6" x 2 7/8" (32.5cm x 15.25cm x
 AC voltage that will be used is 16Vrms from a wall adaptor from which +/- 15V or
 as high as 45 VDC can be obtained. Maximum power consumption will be 20 Watts.
 
-	*Phase 2 System integration*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*Phase 2 System integration*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The system integration will be completed in the winter term.
 
@@ -178,7 +209,8 @@ important to start tasks as soon as possible to be able to meet deadlines.
 | **Phase 3**                                                                               |              |                                                                                                                                |
 | **Phase 3 Total**                                                                         | **TBD**      |                                                                                                                                |
 
-##	**Concluding remarks**
+**Concluding remarks**
+----------------------
 
 This proposal presents a plan for providing an IoT solution for a home
 monitoring system. This is an opportunity to integrate the knowledge and skills
@@ -188,10 +220,73 @@ request approval of this project.
 
  
 
-Systems Requirement Specifications
-==================================
+**Abstract**
+------------
+
+This report contains information outlining the ActiveHouse home monitoring
+system project. The project aims to create a complete home enviromental
+monitoring system to measure temperature, humidity, light levels, water
+consumption, power consumption, smoke and gas detection, and the ability to
+toggle lights. There is an Android mobile application for displaying the data
+and making changes. The hardware consists of a Raspberry Pi, an Arduino, xBee
+wireless adapters, and a mirriad of sensors. The web service and database to
+store all the data is hosted on Munro.humber.ca. The total cost for the
+prototype is about \$330. The project will take me about 8 months to complete
+but can be redone in much less time.  
 
  
+
+**Table of Contents**
+---------------------
+
+1.  [Declaration of Sole
+    Authorship](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#declaration-of-sole-authorship)
+
+2.  [Proposal](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#proposal)
+
+3.  [Abstract](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#abstract)
+
+4.  [Table of
+    Contents](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#table-of-contents)
+
+5.  [List of Illustrations or
+    Diagrams](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#list-of-illustrations-or-diagrams)
+
+6.  [Introduction](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#introduction)
+
+7.  [Body](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#body)
+
+8.  [Conclusion](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#conclusion)
+
+9.  [Recommendations](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#recommendations)
+
+10. [Bibliography](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#bibliography)
+
+11. [Appendicies](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#appendicies)
+
+ 
+
+**List of Illustrations or Diagrams**
+-------------------------------------
+
+**Introduction**
+----------------
+
+The ActiveHouse Project is a complete home monitoring system consisting of
+multiple Arduino based sensor hubs in each room of your home wirelessly
+connecting to a Raspberry Pi based base station which sends the data to the
+server where it can be read by the app. Each sensor hub is be capable of reading
+temperature, humidity, luminosity, carbon monoxide and other gas levels, water
+consumption, power consumption, and it would have the ability to toggle the
+built-in light. The power and water consumption sensors are detachable as they
+would not necessarily be used in each room, thus creating a more modular design.
+The app allows users to view the current settings in each room and over the
+complete house, toggle the lighting, and set a lighting schedule.
+
+ 
+
+**Body**
+--------
 
 ### Database Specifications
 
@@ -282,3 +377,23 @@ does not require any changes. I do need to write the side of the web service
 that connects to the Raspberry Pi to send and receive sensor data. Additionally
 I need to write a program to run on the Raspberry Pi to send the data to the
 server.
+
+ 
+
+**Conclusions**
+---------------
+
+ 
+
+**Recommendations**
+-------------------
+
+ 
+
+**Bibliography**
+----------------
+
+ 
+
+**Appendicies**
+---------------
