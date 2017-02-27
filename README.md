@@ -28,7 +28,7 @@ candidate suspected of plagiarizing may be referred to the Complaints Committee.
 **Proposal**
 ------------
 
-**Proposal Table of Contents**
+### **Proposal Table of Contents**
 
 1.  [Proposal](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#proposal)
 
@@ -59,8 +59,8 @@ over the complete house, toggle the lighting, and set a lighting schedule.
 
  
 
-**Executive Summary**
----------------------
+### **Executive Summary**
+-------------------------
 
 As a Computer Engineering student, I’ll be using all of the skills I have
 learned in the last 2 years in this program to complete this project. This
@@ -80,8 +80,8 @@ CENG 355 Computer Systems Project.
 
  
 
-**Background**
---------------
+### **Background**
+------------------
 
 The problem solved by this project is that it provides a home monitoring
 solution so that users homes can be controlled and monitored remotely through an
@@ -111,8 +111,8 @@ integrate them together as my capstone project.
 
  
 
-**Methodology**
----------------
+### **Methodology**
+-------------------
 
 This proposal is assigned in the first week of class and is due at the beginning
 of class in the second week of the fall semester. My coursework will focus on
@@ -209,8 +209,8 @@ important to start tasks as soon as possible to be able to meet deadlines.
 | **Phase 3**                                                                               |              |                                                                                                                                |
 | **Phase 3 Total**                                                                         | **TBD**      |                                                                                                                                |
 
-**Concluding remarks**
-----------------------
+### **Concluding remarks**
+--------------------------
 
 This proposal presents a plan for providing an IoT solution for a home
 monitoring system. This is an opportunity to integrate the knowledge and skills
@@ -377,6 +377,9 @@ does not require any changes. I do need to write the side of the web service
 that connects to the Raspberry Pi to send and receive sensor data. Additionally
 I need to write a program to run on the Raspberry Pi to send the data to the
 server.
+
+
+
 
 ### **Build Instructions**
 My Active House project is a complete home monitoring system.
