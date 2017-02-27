@@ -378,6 +378,70 @@ that connects to the Raspberry Pi to send and receive sensor data. Additionally
 I need to write a program to run on the Raspberry Pi to send the data to the
 server.
 
+### **Build Instructions**
+My Active House project is a complete home monitoring system.
+The idea is that you would have one Sensor Hub in each room of your home to collect data
+You would have one Raspberry Pi based base station which all of the sensor hubs send their data wirelessly to.
+The base station then sends the received sensor data to the database for use in my app.
+
+![](Documents/Diagram.png)
+
+#### Parts:
+
+Here is a list of all the parts and aproximate costs for one Raspberry Pi base station and one Sensor Hub:
+![](images/Budget.png)
+This list does not include parts from the Humber electronics parts kit. The parts you will need from the kit are:
+
+*   220ohm Resistor
+*   33ohm Resistor
+*   2x 10Kohm Resistors
+*   LED
+*   50uf Capacitor
+*   Single Core Wire
+
+You will also need to print out the Acrylic case which can be found [here](https://github.com/irwintr/irwintr.github.io/tree/master/Case) and the 2 PCBs which can be found [here](https://github.com/irwintr/irwintr.github.io/tree/master/ArdunioShield) and [here](https://github.com/irwintr/irwintr.github.io/tree/master/XBeeBreakout).
+
+#### Time Commitment
+
+While it took me probably upwards of 30 hours to design the project and the circuit boards, put it all together, and code it, I'd expect it to only take around 5 hours to build the project again.
+
+#### PCB/Soldering
+
+![](images/IMG_0391.JPG)
+The first board you will need to solder is the XBee Breakout board. You only need to solder the 3.3v, GND, RX and TX pins as seen in this diagram:
+![](http://sonyarouje.files.wordpress.com/2014/12/connection_diagram_bb_thumb.jpg?w=605&h=480)
+
+Then you will need to solder the Arduino Shield which includes all of the sensors and connections. You can view the board and schematic files for this board [here](https://github.com/irwintr/irwintr.github.io/tree/master/ArdunioShield) which will explain where all of the components and connections go. Beware, some of the solder pads on the Arduin Shield are very small and you will need a very steady hand to solder them. Below are a collection of images which will help you understand where everything goes and how it is connected:
+![](images/IMG_0373.JPG)
+![](images/IMG_0358.JPG)
+![](images/IMG_0397.JPG)
+![](images/IMG_0399.JPG)
+
+#### Mechanical Assembly
+
+![](images/IMG_0390.JPG)
+
+First, you will need to unbox your Raspberry Pi and set it up. You can view my unboxing video [here](#Section_2). After that, connect the wires from the Xbee breakout board to the appropriate GPIO pins.
+![](images/IMG_0353.JPG)
+
+Next you will need to build your acrylic case for your Arduino. Glue the all but the back side together and glue the ports for the current and liquid sensors onto the rear panel of the case.
+
+![](images/IMG_0364.JPG)
+
+#### Code
+
+You can view the Arduino Code [here](https://github.com/irwintr/irwintr.github.io/tree/master/ArduinoCode) to read all of the sensor data and output it to Serial. You will also need to include the Libraries folder.
+Due to a limitation with the Arduino Uno and the Arduino XBee Shield, you cannot upload code to the Arduino while the XBee shield is plugged in, so it needs to be removed from the arduino board when uploading. Alternativly, you could flash the Arduino Uno's bootloader with the Duemilanove which supports uploading code over XBee and send the code to the Arduino wirelessly from the Raspberry Pi. You can read about how to flash the bootloader [here](https://learn.sparkfun.com/tutorials/installing-an-arduino-bootloader)
+
+#### Power Up
+
+The output from the Arduino is below. You can also view my power up in my Build Video.
+![](images/output.PNG)
+
+#### Testing
+
+In all of the testing I hae done so far, everything works as expected. I've checked the read values from the temperature, humidity, light, and gas sensors and they all seem to be accurate. I have noth been able to find a 1/2" hose to connect to my liquid flow sensor so I've been unable to calibrate it, but tripping it by blowing air trough it works as expected. I've tested the current sensor with a few different appliances and its's read values seem to be close to the expected range, howeer I still need to completely calibrate it with an clampmeter. The buzzer and LED can both be toggled from within the code. ![](images/IMG_0401.JPG)
+
  
 
 **Conclusions**
