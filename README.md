@@ -254,15 +254,17 @@ but can be redone in much less time.  
 
 6.  [Introduction](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#introduction)
 
-7.  [Body](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#body)
+7.  [Project Description](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#project-description)
 
 8.  [Conclusion](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#conclusion)
 
 9.  [Recommendations](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#recommendations)
 
-10. [Bibliography](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#bibliography)
+10. [Appendicies](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#appendicies)
 
-11. [Appendicies](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#appendicies)
+11. [Bibliography](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#bibliography)
+
+
 
  
 
@@ -285,8 +287,8 @@ complete house, toggle the lighting, and set a lighting schedule.
 
  
 
-**Body**
---------
+**Project Description**
+-----------------------
 
 ### Database Specifications
 
@@ -457,10 +459,10 @@ In all of the testing I hae done so far, everything works as expected. I've chec
 
  
 
-**Bibliography**
-----------------
+**Appendicies**
+---------------
 
  
 
-**Appendicies**
----------------
+**Bibliography**
+----------------
