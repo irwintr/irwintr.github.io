@@ -10,7 +10,13 @@ Project website <https://irwintr.github.io>
 
 Prepared by Trenton Irwin
 
+March 28, 2017
+
  
+\pagebreak
+\linespread{2}
+\selectfont
+
 
 **Declaration of Sole Authorship**
 ----------------------------------
@@ -24,6 +30,7 @@ of information be acknowledged in the SRS. Plagiarism is unethical and a
 candidate suspected of plagiarizing may be referred to the Complaints Committee.
 
  
+\pagebreak
 
 **Proposal**
 ------------
@@ -57,7 +64,6 @@ they would not necessarily be used in each room, thus creating a more modular
 design. The app would allow users to view the current settings in each room and
 over the complete house, toggle the lighting, and set a lighting schedule.
 
- 
 
 ### **Executive Summary**
 -------------------------
@@ -219,6 +225,7 @@ capstone project demonstrating my ability to learn how to support projects. I
 request approval of this project.
 
  
+\pagebreak
 
 **Abstract**
 ------------
@@ -235,6 +242,7 @@ prototype is about \$330. The project will take me about 8 months to complete
 but can be redone in much less time.  
 
  
+\pagebreak
 
 **Table of Contents**
 ---------------------
@@ -258,18 +266,20 @@ but can be redone in much less time.  
 
 8.  [Conclusion](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#conclusion)
 
-9.  [Recommendations](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#recommendations)
+9. [Appendicies](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#appendicies)
 
-10. [Appendicies](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#appendicies)
-
-11. [Bibliography](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#bibliography)
+10. [Bibliography](https://github.com/irwintr/irwintr.github.io/blob/master/README.md#bibliography)
 
 
 
  
+\pagebreak
 
 **List of Illustrations or Diagrams**
 -------------------------------------
+
+
+\pagebreak
 
 **Introduction**
 ----------------
@@ -286,6 +296,7 @@ The app allows users to view the current settings in each room and over the
 complete house, toggle the lighting, and set a lighting schedule.
 
  
+\pagebreak
 
 **Project Description**
 -----------------------
@@ -382,6 +393,7 @@ server.
 
 
 
+\pagebreak
 
 ### **Build Instructions**
 My Active House project is a complete home monitoring system.
@@ -414,7 +426,7 @@ While it took me probably upwards of 30 hours to design the project and the circ
 
 ![](images/IMG_0391.JPG)
 The first board you will need to solder is the XBee Breakout board. You only need to solder the 3.3v, GND, RX and TX pins as seen in this diagram:
-![](http://sonyarouje.files.wordpress.com/2014/12/connection_diagram_bb_thumb.jpg?w=605&h=480)
+![](images/connection_diagram.jpg)
 
 Then you will need to solder the Arduino Shield which includes all of the sensors and connections. You can view the board and schematic files for this board [here](https://github.com/irwintr/irwintr.github.io/tree/master/ArdunioShield) which will explain where all of the components and connections go. Beware, some of the solder pads on the Arduin Shield are very small and you will need a very steady hand to solder them. Below are a collection of images which will help you understand where everything goes and how it is connected:
 ![](images/IMG_0373.JPG)
@@ -445,24 +457,22 @@ The output from the Arduino is below. You can also view my power up in my Build 
 
 #### Testing
 
-In all of the testing I hae done so far, everything works as expected. I've checked the read values from the temperature, humidity, light, and gas sensors and they all seem to be accurate. I have noth been able to find a 1/2" hose to connect to my liquid flow sensor so I've been unable to calibrate it, but tripping it by blowing air trough it works as expected. I've tested the current sensor with a few different appliances and its's read values seem to be close to the expected range, howeer I still need to completely calibrate it with an clampmeter. The buzzer and LED can both be toggled from within the code. ![](images/IMG_0401.JPG)
+In all of the testing I have done so far, everything works as expected. I've checked the read values from the temperature, humidity, light, and gas sensors and they all seem to be accurate. I have noth been able to find a 1/2" hose to connect to my liquid flow sensor so I've been unable to calibrate it, but tripping it by blowing air trough it works as expected. I've tested the current sensor with a few different appliances and its's read values seem to be close to the expected range, howeer I still need to completely calibrate it with an clampmeter. The buzzer and LED can both be toggled from within the code. ![](images/IMG_0401.JPG)
 
- 
+\pagebreak
 
 **Conclusions**
 ---------------
 
+ The ActiveHouse project is nearly complete and will be within the next week. It was definately a learning experience, but I fell like it was a sucessful project. There are a few things I might do differently next time including adding a Sync button to both the base station and the sensor boxes to pair them automatically, however my current method of pairing works just fine. All of the components of the project are working flawlessly together as expected, there is just a bit of coding left to be done. The ActiveHouse project has great potential as a home monitoring system as it has many features included such as water and power consumption monitoring that aren't included in commercial solutions that are currently on the market. Unfortunately, the fact that it's build using mainly consumer hardware such as the Raspberry Pi and the Arduino makes it not financially viable to birng to market without compltetely rebuilding it all using cheaper microcontrollers. It was still a very good learning experience and the skills that I have learned on this project will keep me tinkering with electronics for years to come. 
  
-
-**Recommendations**
--------------------
-
- 
+\pagebreak
 
 **Appendicies**
 ---------------
 
  
+\pagebreak
 
 **Bibliography**
 ----------------
